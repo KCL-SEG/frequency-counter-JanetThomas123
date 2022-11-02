@@ -11,6 +11,7 @@ def frequencies(items):
     frequencies = {}
     # Your code goes here
     i = 0
+    items = [str(r) for r in items]
     while i < len(items):
         count = items.count(items[i])
         frequencies[items[i]] = count
