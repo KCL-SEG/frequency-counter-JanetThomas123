@@ -14,5 +14,7 @@ def frequencies(items):
     while i < len(items):
         count = items.count(items[i])
         frequencies[items[i]] = count
-        items = remove_items(items, item[i])
+        items = remove_items(items, items[i])
     return frequencies
+    
+    
